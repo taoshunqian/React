@@ -1,0 +1,77 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.footer {
+	width: 100%;
+	height: 8vh;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	border-top: 1px solid #cdcdcd;
+	background-color: #fff;
+	overflow: hidden;
+	z-index: 99999;
+}
+.footerBottom {
+	width: 100%;
+	overflow: scroll-y;
+	padding-bottom: 60px;
+}
+.seizeAseat {
+	width: 100%;
+	height: 6vh;
+	background-color: #fff;
+}
+.footerBottomcenter {
+	width: 100%;
+	
+	background-color: #F5F5F5;
+}
+.footer ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+.footer ul li {
+	width: 25%;
+	height: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+.footer ul li img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+.logo {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .activeImg {
+    animation: App-logo-spin infinite 2s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ul li {
+	list-style: none;
+}
+.active {
+	color: #66CCFF;
+}
+
